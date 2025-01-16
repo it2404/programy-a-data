@@ -63,3 +63,11 @@ p {
     text-align: justify;
     margin-top: 20px;
 }
+
+.main-title {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    height: 60px;
+    text-align: center;
+    padding-top: 15px;
+}
