@@ -30,7 +30,7 @@
 
 
 header {
-    background-color: rgb(34, 140, 189);
+    background-color:  #808080;
     color: #0a59ede0;
 }
 
@@ -71,3 +71,7 @@ p {
     text-align: center;
     padding-top: 15px;
 }
+
+footer {
+    background-color: #918e8e;
+}   
