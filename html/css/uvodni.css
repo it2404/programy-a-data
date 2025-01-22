@@ -1,0 +1,84 @@
+/* Nastavení těla stránky*/
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    
+    background-repeat: repeat;
+    background-size: cover;
+    background-image: url(https://t4.ftcdn.net/jpg/04/33/16/71/360_F_433167186_bnAhGZ4fANlmExoSXw4EagCsfVbmAPIc.jpg);
+    color: rgb(0, 0, 0); 
+}
+
+/* Nastavení záhlavý*/
+
+header {
+
+    text-transform: uppercase;
+    text-align: center;
+    padding: 20px;
+    color: aqua;
+    
+}
+
+header h1 {
+    font-size: 3em;
+}
+
+header p {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+/*Nastavení hlavní části*/
+
+main {
+    width: 1200px;
+    background-color: rgb(16, 158, 234);
+    margin: auto;
+}
+
+/*Nastavení flexboxu*/
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    border-style:ridge;
+    border-top: none;
+    border-color: rgb(0, 102, 255);
+    
+}
+
+.flex-container div {
+    background-color: aqua;
+    padding: 20px;
+    margin: 20px;
+    flex: 25%;
+    
+}
+
+/*Responsivní design*/
+
+@media screen and (max-width: 1200px) {
+    main {
+        width: 90%;
+    }
+    .flex-container {
+        flex-direction: column;
+    }
+}
+
+.obsah-stranek {
+    
+    text-align: center;
+    color: aqua;
+    font-size: 30px;
+    margin-bottom:0px;
+    border-style: ridge;
+    border-bottom: none;
+    border-color: rgb(0, 102, 255);
+    
+}
+
+footer {
+    color: aqua;
+}   
